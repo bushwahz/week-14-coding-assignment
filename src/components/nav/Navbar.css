@@ -1,0 +1,22 @@
+nav {
+  height: 10vh;
+  width: 100vw;
+  position: sticky;
+  display: flex;
+  padding: 0 5%;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #5e1616;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+  list-style: none;
+}
+
+nav ul li {
+  text-align: center;
+  padding:0 15px;
+}

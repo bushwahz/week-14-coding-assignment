@@ -1,0 +1,84 @@
+App {
+  height: 100vh;
+}
+
+main {
+  position: relative;
+  height: 90vh;
+  overflow-y: auto;
+}
+
+main section {
+  min-height: 100vh;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  padding-bottom: 50px;
+  color: #FFEFCA;
+}
+
+main section .example {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: auto;
+  width: 80%;
+  margin-top: 20px;
+  border-radius: 12px;
+  background-color: #6D3C00;
+  padding: 15px;
+}
+
+main section .example .example-heading {
+  margin: 10px 0;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 30px;
+  color:#ffd46c;
+}
+
+main section .example p {
+  margin-bottom: 25px;
+  padding-bottom: 25px;
+}
+
+main section .example .percentage {
+  color:#ffd46c;
+  ;
+}
+
+main section .example img {
+  margin: 10px 0;
+  border: 1px solid black;
+}
+
+input[type=text] {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+  text-wrap: balance;
+}
+
+button {
+  background-color: #ffd46c; /* Green */
+  border: none;
+  color: #333;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+h3 {
+  border-top: 1px solid grey;
+  padding-top: 10px
+}
